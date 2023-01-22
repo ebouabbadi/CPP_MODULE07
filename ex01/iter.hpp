@@ -1,12 +1,14 @@
+#ifndef ITER_HPP
+#define ITER_HPP
+#include <iostream>
 
-
-template <class T>
+template <typename T>
 T func(T c)
 {
     return (c);
 }
 
-template <class T>
+template <typename T>
 void iter(T *arr, int length, T(funcion)(T c))
 {
     for (int i = 0; i < length; i++)
